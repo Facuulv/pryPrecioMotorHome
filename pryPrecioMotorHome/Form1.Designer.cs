@@ -42,13 +42,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.rdbSi = new System.Windows.Forms.RadioButton();
             this.rdbNo = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(179, 212);
+            this.btnCalcular.Location = new System.Drawing.Point(134, 172);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(84, 39);
+            this.btnCalcular.Size = new System.Drawing.Size(63, 32);
             this.btnCalcular.TabIndex = 0;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -56,9 +59,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(282, 212);
+            this.btnLimpiar.Location = new System.Drawing.Point(212, 172);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(84, 39);
+            this.btnLimpiar.Size = new System.Drawing.Size(63, 32);
             this.btnLimpiar.TabIndex = 1;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -68,35 +72,39 @@
             // 
             this.txtResultado.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.txtResultado.Enabled = false;
-            this.txtResultado.Location = new System.Drawing.Point(214, 303);
+            this.txtResultado.Location = new System.Drawing.Point(160, 246);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(120, 22);
+            this.txtResultado.Size = new System.Drawing.Size(91, 20);
             this.txtResultado.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(216, 274);
+            this.label1.Location = new System.Drawing.Point(162, 223);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 16);
+            this.label1.Size = new System.Drawing.Size(95, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "El total a pagar es:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(36, 183);
+            this.label2.Location = new System.Drawing.Point(27, 149);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 16);
+            this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "EXTRAS";
             // 
             // chbEquipo
             // 
             this.chbEquipo.AutoSize = true;
-            this.chbEquipo.Location = new System.Drawing.Point(13, 212);
+            this.chbEquipo.Location = new System.Drawing.Point(10, 172);
+            this.chbEquipo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chbEquipo.Name = "chbEquipo";
-            this.chbEquipo.Size = new System.Drawing.Size(136, 20);
+            this.chbEquipo.Size = new System.Drawing.Size(110, 17);
             this.chbEquipo.TabIndex = 5;
             this.chbEquipo.Text = "Equipo de Cocina";
             this.chbEquipo.UseVisualStyleBackColor = true;
@@ -105,9 +113,10 @@
             // chbInternet
             // 
             this.chbInternet.AutoSize = true;
-            this.chbInternet.Location = new System.Drawing.Point(12, 253);
+            this.chbInternet.Location = new System.Drawing.Point(9, 206);
+            this.chbInternet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chbInternet.Name = "chbInternet";
-            this.chbInternet.Size = new System.Drawing.Size(72, 20);
+            this.chbInternet.Size = new System.Drawing.Size(62, 17);
             this.chbInternet.TabIndex = 6;
             this.chbInternet.Text = "Internet";
             this.chbInternet.UseVisualStyleBackColor = true;
@@ -116,9 +125,10 @@
             // chbTelevision
             // 
             this.chbTelevision.AutoSize = true;
-            this.chbTelevision.Location = new System.Drawing.Point(12, 293);
+            this.chbTelevision.Location = new System.Drawing.Point(9, 238);
+            this.chbTelevision.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.chbTelevision.Name = "chbTelevision";
-            this.chbTelevision.Size = new System.Drawing.Size(92, 20);
+            this.chbTelevision.Size = new System.Drawing.Size(74, 17);
             this.chbTelevision.TabIndex = 7;
             this.chbTelevision.Text = "Television";
             this.chbTelevision.UseVisualStyleBackColor = true;
@@ -131,43 +141,48 @@
             "Modelo A",
             "Modelo B",
             "Modelo C"});
-            this.cmbModelo.Location = new System.Drawing.Point(39, 43);
+            this.cmbModelo.Location = new System.Drawing.Point(29, 35);
+            this.cmbModelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbModelo.Name = "cmbModelo";
-            this.cmbModelo.Size = new System.Drawing.Size(144, 24);
+            this.cmbModelo.Size = new System.Drawing.Size(109, 21);
             this.cmbModelo.TabIndex = 8;
             this.cmbModelo.SelectedIndexChanged += new System.EventHandler(this.cmbModelo_SelectedIndexChanged);
             // 
             // cmbPersonas
             // 
             this.cmbPersonas.FormattingEnabled = true;
-            this.cmbPersonas.Location = new System.Drawing.Point(222, 43);
+            this.cmbPersonas.Location = new System.Drawing.Point(166, 35);
+            this.cmbPersonas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbPersonas.Name = "cmbPersonas";
-            this.cmbPersonas.Size = new System.Drawing.Size(144, 24);
+            this.cmbPersonas.Size = new System.Drawing.Size(109, 21);
             this.cmbPersonas.TabIndex = 9;
             // 
             // lblError
             // 
             this.lblError.AutoSize = true;
-            this.lblError.Location = new System.Drawing.Point(39, 13);
+            this.lblError.Location = new System.Drawing.Point(29, 11);
+            this.lblError.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(0, 16);
+            this.lblError.Size = new System.Drawing.Size(0, 13);
             this.lblError.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(127, 94);
+            this.label3.Location = new System.Drawing.Point(95, 76);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(158, 16);
+            this.label3.Size = new System.Drawing.Size(124, 13);
             this.label3.TabIndex = 11;
             this.label3.Text = "¿Desea agregar seguro?";
             // 
             // rdbSi
             // 
             this.rdbSi.AutoSize = true;
-            this.rdbSi.Location = new System.Drawing.Point(160, 123);
+            this.rdbSi.Location = new System.Drawing.Point(120, 100);
+            this.rdbSi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbSi.Name = "rdbSi";
-            this.rdbSi.Size = new System.Drawing.Size(40, 20);
+            this.rdbSi.Size = new System.Drawing.Size(34, 17);
             this.rdbSi.TabIndex = 12;
             this.rdbSi.TabStop = true;
             this.rdbSi.Text = "Si";
@@ -176,20 +191,43 @@
             // rdbNo
             // 
             this.rdbNo.AutoSize = true;
-            this.rdbNo.Location = new System.Drawing.Point(160, 149);
+            this.rdbNo.Location = new System.Drawing.Point(120, 121);
+            this.rdbNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.rdbNo.Name = "rdbNo";
-            this.rdbNo.Size = new System.Drawing.Size(46, 20);
+            this.rdbNo.Size = new System.Drawing.Size(39, 17);
             this.rdbNo.TabIndex = 13;
             this.rdbNo.TabStop = true;
             this.rdbNo.Text = "No";
             this.rdbNo.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(33, 20);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 13);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Modelos:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(162, 20);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(113, 13);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Cantidad de personas:";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(396, 355);
+            this.ClientSize = new System.Drawing.Size(297, 288);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.rdbNo);
             this.Controls.Add(this.rdbSi);
             this.Controls.Add(this.label3);
@@ -204,6 +242,7 @@
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCalcular);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Calculador de Precios MotorHome";
             this.ResumeLayout(false);
@@ -227,6 +266,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton rdbSi;
         private System.Windows.Forms.RadioButton rdbNo;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
